@@ -1,0 +1,13 @@
+# Vercel ignore file
+# 这些文件/文件夹在部署时会被忽略
+
+node_modules
+.next
+.env.local
+.env*.local
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+

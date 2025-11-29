@@ -35,3 +35,15 @@ NEXT_PUBLIC_WHATSAPP_PHONE=60123456789
 - `NEXT_PUBLIC_*` 前缀的变量会暴露给客户端
 - `SUPABASE_SERVICE_ROLE_KEY` 具有完整权限，务必保密
 
+## Vercel 部署配置
+
+如果你使用 Vercel 部署，请参考 **`VERCEL_SETUP.md`** 文件获取详细的配置步骤。
+
+### 快速步骤：
+1. 在 Vercel Dashboard → 项目 → Settings → Environment Variables
+2. 添加所有必需的环境变量
+3. 选择应用环境（Production/Preview/Development）
+4. 保存并重新部署
+
+详细说明请查看 `VERCEL_SETUP.md`
+
